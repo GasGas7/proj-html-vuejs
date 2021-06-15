@@ -2,13 +2,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 body{
     background-color: $bgBody;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 h1{
     color: white;
-    font-size: 3.7rem;
-    line-height: 70px;
+    font-size: 3.8rem;
+    line-height: 80px;
+    font-weight: 600;
 }

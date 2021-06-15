@@ -38,10 +38,22 @@ header nav .menu_header a {
 header .overtitle {
   padding-top: 150px;
   padding-bottom: 25px;
+  display: flex;
+}
+header .overtitle::before {
+  content: "";
+  background: #39FFBF;
+  height: 2px;
+  width: 30px;
+  margin-top: 0.5rem;
+  position: absolute;
+  transform: translateX(15%);
 }
 header .overtitle span {
+  margin-left: 2rem;
   font-size: 0.8rem;
   color: white;
+  position: relative;
 }
 header .bottoni {
   margin-top: 30px;

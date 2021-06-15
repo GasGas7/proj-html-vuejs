@@ -27,10 +27,10 @@ main {
         font-size: 0.95rem;
         line-height: 25px;
         margin-top: 1rem;
-        width: 75%;
+        width: $widthCalc;
       }
       .green_banner {
-        width: 90%;
+        width: $widthCalc;
         background-color: #35ffbf;
         position: absolute;
         top: 90%;

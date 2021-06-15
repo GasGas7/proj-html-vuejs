@@ -1,20 +1,57 @@
 //Header
 
-header{
+header {
+  //background
+  height: 700px;
+  background-image: url("/dist/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
+  background-size: 50%;
+  background-position-x: 75%;
+  background-repeat: no-repeat;
 
-    nav{
-        width: 100%;
-        padding-top: 1rem;
-        & img{
-            height: 30%;
-        }
-        & .menu_header a{
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-            font-weight: 500;
-            color: white;
-        }
-
+  nav {
+    width: 100%;
+    padding-top: 1rem;
+    & img {
+      height: 30%;
     }
+    & .menu_header a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: white;
+    }
+  }
+
+  .overtitle {
+    padding-top: 150px;
+    padding-bottom: 25px;
+    & span {
+      font-size: 0.8rem;
+      color: white;
+    }
+  }
+
+  .bottoni {
+    margin-top: 30px;
+    button {
+      padding: 10px 40px;
+      outline-width: 0px;
+      font-size: 0.5rem;
+      word-spacing: 2px;
+      letter-spacing: 2px;
+      background-color: $bgButtonAcqua;
+      border-color: $bgButtonAcqua;
+    }
+    span {
+        text-align: center;
+        padding: 2px 12px 2px 14px;
+        border: 1px solid white;
+        border-radius: 50%;
+      & i {
+        font-size: 20px;
+        color: $bgButtonAcqua;
+      }
+    }
+  }
 }

@@ -17,6 +17,10 @@ h1 {
   font-weight: 600;
 }
 
+h4 {
+  padding: 5rem 0;
+}
+
 header {
   background-image: url("/dist/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
   background-size: 70%;
@@ -25,7 +29,7 @@ header {
 }
 header nav {
   width: 100%;
-  padding: 1rem 10rem 0;
+  padding: 1rem 11rem 0;
 }
 header nav img {
   height: 30%;
@@ -38,7 +42,7 @@ header nav .menu_header a {
   color: white;
 }
 header .titolo {
-  margin-left: 10rem;
+  margin-left: 11rem;
 }
 header .overtitle {
   padding-top: 12rem;
@@ -82,4 +86,43 @@ header .bottoni span {
 header .bottoni span i {
   font-size: 20px;
   color: #39FFBF;
+}
+
+main .section_1 {
+  background-color: white;
+  position: relative;
+}
+main .section_1 h4::after {
+  content: "";
+  background: #39FFBF;
+  height: 3px;
+  width: 1000px;
+  margin-top: 0.8rem;
+  position: absolute;
+  right: 0;
+}
+main .section_1 .row {
+  padding-bottom: 4rem;
+}
+main .section_1 .row .carta {
+  margin-bottom: 1.5rem;
+}
+main .section_1 .row .icona {
+  height: 55px;
+  width: 55px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .section_1 .row .icona img {
+  text-align: center;
+  height: 35px;
+  color: white;
+}
+main .section_1 .row div p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #8F8F8F;
 }

@@ -1,0 +1,15 @@
+@mixin iconsSectionOne{
+    height: 55px;
+    width: 55px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+@mixin paragSectionOne{
+    font-size: 0.8rem;
+    font-weight:300;
+    color: #8F8F8F;
+}

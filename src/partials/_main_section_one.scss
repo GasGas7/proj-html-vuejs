@@ -1,0 +1,36 @@
+//Main
+
+main{
+    .section_1{
+        background-color: white;
+        position: relative;
+        h4::after {
+            content: "";
+            background: $bgButtonAcqua;
+            height: 3px;
+            width: 1000px;
+            margin-top: 0.8rem;
+            position: absolute;
+            right: 0;
+            }
+        .row{
+            padding-bottom: 4rem;
+            .carta{
+                margin-bottom: 1.5rem;
+            }
+            .icona{
+               @include iconsSectionOne; 
+            }
+            .icona img{
+                text-align: center;
+                height: 
+                35px;
+                color: white;
+            }
+            div p{
+                @include paragSectionOne
+            }
+            
+        }
+    }
+}

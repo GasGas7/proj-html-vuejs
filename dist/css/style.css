@@ -26,6 +26,7 @@ header {
   background-size: 69%;
   background-position-x: right;
   background-repeat: no-repeat;
+  margin-bottom: -50px;
 }
 header nav {
   width: 100%;
@@ -69,8 +70,9 @@ header .bottoni {
   margin-bottom: 350px;
 }
 header .bottoni button {
-  padding: 10px 40px;
-  outline-width: 0px;
+  all: unset;
+  padding: 15px 40px;
+  cursor: pointer;
   font-size: 0.6rem;
   word-spacing: 2px;
   letter-spacing: 2px;
@@ -136,14 +138,6 @@ main .section_2 .row div:first-child {
 main .section_2 .row div img {
   width: 95%;
 }
-main .section_2 .row div:last-child {
-  height: 200px;
-  width: 80%;
-  background-color: #35ffbf;
-  position: absolute;
-  top: 90%;
-  z-index: 3;
-}
 main .section_2 .row .overtitle::before {
   content: "";
   background: #39FFBF;
@@ -157,6 +151,7 @@ main .section_2 .row h6 {
   font-size: 0.8rem;
   color: white;
   position: relative;
+  color: white;
 }
 main .section_2 .row h2 {
   color: white;
@@ -171,4 +166,27 @@ main .section_2 .row p {
   line-height: 25px;
   margin-top: 1rem;
   width: 75%;
+}
+main .section_2 .row .green_banner {
+  width: 90%;
+  background-color: #35ffbf;
+  position: absolute;
+  top: 90%;
+  z-index: 3;
+}
+main .section_2 .row .green_banner h3 {
+  margin: 3rem 0;
+}
+main .section_2 .row .green_banner :last-child button {
+  all: unset;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 0.6rem;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  background-color: #f81d39;
+  color: white;
+}
+main .section_2 .row .green_banner p {
+  width: 80%;
 }

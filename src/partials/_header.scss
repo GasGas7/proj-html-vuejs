@@ -6,7 +6,7 @@ header {
   background-size: 69%;
   background-position-x: right;
   background-repeat: no-repeat;
-
+  margin-bottom: -50px;
   nav {
     width: 100%;
     padding: 1rem 11rem 0;
@@ -42,11 +42,7 @@ header {
     margin-top: 70px;
     margin-bottom: 350px;
     button {
-      padding: 10px 40px;
-      outline-width: 0px;
-      font-size: 0.6rem;
-      word-spacing: 2px;
-      letter-spacing: 2px;
+      @include button;
       background-color: $bgButtonAcqua;
       border-color: $bgButtonAcqua;
     }

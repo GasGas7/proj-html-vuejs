@@ -27,4 +27,12 @@
   margin-top: 0.4rem;
   position: absolute;
 }
+@mixin button {
+  all: unset;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 0.6rem;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
 //section2

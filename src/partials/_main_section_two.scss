@@ -1,41 +1,52 @@
 //section2
 
-main{
-    .section_2{
-        .row{
-            position: relative;
-            div:first-child{
-                z-index: 1;
-            }
-            div img{
-                width: 95%; 
-            }
-            div:last-child{ 
-                height: 200px;
-                width: 80%;
-                background-color: #35ffbf;
-                position: absolute;
-                top:90%;
-                z-index: 3;
-            }
-            .overtitle::before{
-                 @include greenLine;
-            }
-            h6{
-                @include overtitle; 
-            }
-            h2{
-                color:white;
-                font-weight: 600;
-                font-size: 65px;
-            }
-            p{
-                @include paragSection;
-                font-size: 0.95rem;
-                line-height: 25px;
-                margin-top: 1rem;
-                width: 75%;
-            }
+main {
+  .section_2 {
+    .row {
+      position: relative;
+      div:first-child {
+        z-index: 1;
+      }
+      div img {
+        width: 95%;
+      }
+      .overtitle::before {
+        @include greenLine;
+      }
+      h6 {
+        @include overtitle;
+        color: white;
+      }
+      h2 {
+        color: white;
+        font-weight: 600;
+        font-size: 65px;
+      }
+      p {
+        @include paragSection;
+        font-size: 0.95rem;
+        line-height: 25px;
+        margin-top: 1rem;
+        width: 75%;
+      }
+      .green_banner {
+        width: 90%;
+        background-color: #35ffbf;
+        position: absolute;
+        top: 90%;
+        z-index: 3;
+        & h3 {
+          margin: 3rem 0;
         }
+        & :last-child button {
+          @include button;
+          background-color: #f81d39;
+          color: white;
+        }
+        & p{
+            width: 80%;
+        }
+      }
     }
+  }
 }

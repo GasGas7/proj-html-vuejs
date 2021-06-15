@@ -28,7 +28,7 @@ main{
                 color: white;
             }
             div p{
-                @include paragSectionOne
+                @include paragSection;
             }
             
         }

@@ -1,0 +1,41 @@
+//section2
+
+main{
+    .section_2{
+        .row{
+            position: relative;
+            div:first-child{
+                z-index: 1;
+            }
+            div img{
+                width: 95%; 
+            }
+            div:last-child{ 
+                height: 200px;
+                width: 80%;
+                background-color: #35ffbf;
+                position: absolute;
+                top:90%;
+                z-index: 3;
+            }
+            .overtitle::before{
+                 @include greenLine;
+            }
+            h6{
+                @include overtitle; 
+            }
+            h2{
+                color:white;
+                font-weight: 600;
+                font-size: 65px;
+            }
+            p{
+                @include paragSection;
+                font-size: 0.95rem;
+                line-height: 25px;
+                margin-top: 1rem;
+                width: 75%;
+            }
+        }
+    }
+}

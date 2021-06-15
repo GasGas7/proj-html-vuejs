@@ -5,22 +5,22 @@ const app = new Vue({
     data: {
         headMenuLinks: [
             {
-                linkMenu:"Home"
+                linkMenu: "Home"
             },
             {
-                linkMenu:"About"
+                linkMenu: "About"
             },
             {
-                linkMenu:"Project"
+                linkMenu: "Project"
             },
             {
-                linkMenu:"Services"
+                linkMenu: "Services"
             },
             {
-                linkMenu:"Blog"
+                linkMenu: "Blog"
             },
             {
-                linkMenu:"Contact"
+                linkMenu: "Contact"
             },
         ]
     },

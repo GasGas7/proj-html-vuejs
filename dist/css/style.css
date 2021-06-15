@@ -23,7 +23,7 @@ h4 {
 
 header {
   background-image: url("/dist/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
-  background-size: 70%;
+  background-size: 69%;
   background-position-x: right;
   background-repeat: no-repeat;
 }
@@ -53,13 +53,13 @@ header .overtitle::before {
   content: "";
   background: #39FFBF;
   height: 2px;
-  width: 50px;
-  margin-top: 0.5rem;
+  width: 45px;
+  margin-top: 0.4rem;
   position: absolute;
   transform: translateX(15%);
 }
-header .overtitle span {
-  margin-left: 4rem;
+header .overtitle h6 {
+  margin-left: 3rem;
   font-size: 0.8rem;
   color: white;
   position: relative;
@@ -122,7 +122,53 @@ main .section_1 .row .icona img {
   color: white;
 }
 main .section_1 .row div p {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 300;
-  color: #8F8F8F;
+  color: #707070;
+}
+
+main .section_2 .row {
+  position: relative;
+}
+main .section_2 .row div:first-child {
+  z-index: 1;
+}
+main .section_2 .row div img {
+  width: 95%;
+}
+main .section_2 .row div:last-child {
+  height: 200px;
+  width: 80%;
+  background-color: #35ffbf;
+  position: absolute;
+  top: 90%;
+  z-index: 3;
+}
+main .section_2 .row .overtitle::before {
+  content: "";
+  background: #39FFBF;
+  height: 2px;
+  width: 45px;
+  margin-top: 0.4rem;
+  position: absolute;
+}
+main .section_2 .row h6 {
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  color: white;
+  position: relative;
+}
+main .section_2 .row h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 65px;
+}
+main .section_2 .row p {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #707070;
+  font-size: 0.95rem;
+  line-height: 25px;
+  margin-top: 1rem;
+  width: 75%;
 }

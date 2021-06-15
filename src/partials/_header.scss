@@ -3,7 +3,7 @@
 header {
   //background
   background-image: url("/dist/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
-  background-size: 70%;
+  background-size: 69%;
   background-position-x: right;
   background-repeat: no-repeat;
 
@@ -30,19 +30,11 @@ header {
     margin-bottom: 3rem;
     display: flex;
     &::before {
-      content: "";
-      background: $bgButtonAcqua;
-      height: 2px;
-      width: 50px;
-      margin-top: 0.5rem;
-      position: absolute;
+      @include greenLine;
       transform: translateX(15%);
     }
-    & span {
-      margin-left: 4rem;
-      font-size: 0.8rem;
-      color: white;
-      position: relative;
+    & h6 {
+      @include overtitle;
     }
   }
 

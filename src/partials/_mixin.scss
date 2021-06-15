@@ -1,15 +1,30 @@
-@mixin iconsSectionOne{
-    height: 55px;
-    width: 55px;
-    background-color: red;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+//section1
+@mixin iconsSectionOne {
+  height: 55px;
+  width: 55px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@mixin paragSectionOne{
-    font-size: 0.8rem;
-    font-weight:300;
-    color: #8F8F8F;
+@mixin overtitle {
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  color: white;
+  position: relative;
 }
+@mixin paragSection {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #707070;
+}
+@mixin greenLine {
+  content: "";
+  background: $bgButtonAcqua;
+  height: 2px;
+  width: 45px;
+  margin-top: 0.4rem;
+  position: absolute;
+}
+//section2

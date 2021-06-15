@@ -1,0 +1,20 @@
+//Header
+
+header{
+
+    nav{
+        width: 100%;
+        padding-top: 1rem;
+        & img{
+            height: 30%;
+        }
+        & .menu_header a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: white;
+        }
+
+    }
+}

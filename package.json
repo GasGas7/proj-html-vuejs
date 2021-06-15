@@ -1,0 +1,31 @@
+{
+  "name": "consulting-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GasGas7/consulting-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GasGas7/consulting-landing/issues"
+  },
+  "homepage": "https://github.com/GasGas7/consulting-landing#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.19",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.35.0",
+    "sass-loader": "^11.0.1"
+  }
+}

@@ -32,12 +32,12 @@ main {
       }
       .green_banner {
         width: $widthCalc;
+        height: 250px;
         background-color: #35ffbf;
         position: absolute;
         top: 90%;
         z-index: 3;
         & h4 {
-          margin: 5rem 0;
           font-weight: 600;
           width: 80%;
         }

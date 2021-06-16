@@ -1,0 +1,17 @@
+main{
+    .section_4{
+        .row{
+            position: relative;
+            .overtitle::after {
+                @include greenLine;
+                right: 0;
+                margin-top: 0.9rem;
+              }
+              h6 {
+                @include overtitle;
+                display: inline-block;
+                color: white;
+              }
+        }
+    }
+}

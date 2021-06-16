@@ -51,7 +51,7 @@ header .overtitle::before {
   background: #39FFBF;
   height: 2px;
   width: 45px;
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
   position: absolute;
   transform: translateX(15%);
 }
@@ -143,7 +143,7 @@ main .section_2 .row .overtitle::before {
   background: #39FFBF;
   height: 2px;
   width: 45px;
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
   position: absolute;
 }
 main .section_2 .row h6 {
@@ -169,13 +169,13 @@ main .section_2 .row p {
 }
 main .section_2 .row .green_banner {
   width: calc((100%) - 11rem);
+  height: 250px;
   background-color: #35ffbf;
   position: absolute;
   top: 90%;
   z-index: 3;
 }
 main .section_2 .row .green_banner h4 {
-  margin: 5rem 0;
   font-weight: 600;
   width: 80%;
 }
@@ -201,7 +201,7 @@ main .section_3 .row .overtitle::before {
   background: #39FFBF;
   height: 2px;
   width: 45px;
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
   position: absolute;
 }
 main .section_3 .row h6 {
@@ -238,4 +238,26 @@ main .section_3 .row .immagini .immagine:nth-child(1) {
 }
 main .section_3 .row .immagini .immagine:nth-child(3) {
   margin-left: 40px;
+}
+
+main .section_4 .row {
+  position: relative;
+}
+main .section_4 .row .overtitle::after {
+  content: "";
+  background: #39FFBF;
+  height: 2px;
+  width: 45px;
+  margin-top: 0.6rem;
+  position: absolute;
+  right: 0;
+  margin-top: 0.9rem;
+}
+main .section_4 .row h6 {
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  color: white;
+  position: relative;
+  display: inline-block;
+  color: white;
 }

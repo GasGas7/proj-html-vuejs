@@ -1,0 +1,54 @@
+main {
+  .section_5 {
+    .row {
+      .overtitle::before {
+        @include greenLine;
+      }
+      h6 {
+        @include overtitle;
+        color: white;
+      }
+      h3 {
+        color: white;
+        margin-top: 1rem;
+        display: inline-block;
+      }
+      button {
+        @include button;
+        background-color: $bgButtonAcqua;
+      }
+      .immagine_1 {
+        position: relative;
+        z-index: 1;
+        & .inner_img_1 {
+          @include whiteBannerSectionFive;
+          right: 15px;
+          & span {
+            @include spanWhiteBanner;
+          }
+          & p {
+            @include paragSection;
+          }
+        }
+      }
+      .immagine_2 {
+        position: relative;
+        z-index: 1;
+        & .inner_img_2 {
+          @include whiteBannerSectionFive;
+          right: 0;
+          & span {
+            @include spanWhiteBanner;
+          }
+          & p {
+            @include paragSection;
+          }
+        }
+        
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

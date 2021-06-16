@@ -34,3 +34,14 @@
   word-spacing: 2px;
   letter-spacing: 2px;
 }
+@mixin whiteBannerSectionFive {
+  background-color: white;
+  padding:1rem 7rem 2rem 4rem;
+  z-index: 3;
+  position: absolute;
+  top: 65%;
+}
+@mixin spanWhiteBanner{
+  font-size: 0.8rem;
+  color: red;
+}

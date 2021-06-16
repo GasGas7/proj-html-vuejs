@@ -279,3 +279,78 @@ main .section_4 .row .white_banner p {
   font-weight: 300;
   color: #707070;
 }
+
+main .section_5 .row .overtitle::before {
+  content: "";
+  background: #39FFBF;
+  height: 2px;
+  width: 45px;
+  margin-top: 0.6rem;
+  position: absolute;
+}
+main .section_5 .row h6 {
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  color: white;
+  position: relative;
+  color: white;
+}
+main .section_5 .row h3 {
+  color: white;
+  margin-top: 1rem;
+  display: inline-block;
+}
+main .section_5 .row button {
+  all: unset;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 0.6rem;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  background-color: #39FFBF;
+}
+main .section_5 .row .immagine_1 {
+  position: relative;
+  z-index: 1;
+}
+main .section_5 .row .immagine_1 .inner_img_1 {
+  background-color: white;
+  padding: 1rem 7rem 2rem 4rem;
+  z-index: 3;
+  position: absolute;
+  top: 65%;
+  right: 15px;
+}
+main .section_5 .row .immagine_1 .inner_img_1 span {
+  font-size: 0.8rem;
+  color: red;
+}
+main .section_5 .row .immagine_1 .inner_img_1 p {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #707070;
+}
+main .section_5 .row .immagine_2 {
+  position: relative;
+  z-index: 1;
+}
+main .section_5 .row .immagine_2 .inner_img_2 {
+  background-color: white;
+  padding: 1rem 7rem 2rem 4rem;
+  z-index: 3;
+  position: absolute;
+  top: 65%;
+  right: 0;
+}
+main .section_5 .row .immagine_2 .inner_img_2 span {
+  font-size: 0.8rem;
+  color: red;
+}
+main .section_5 .row .immagine_2 .inner_img_2 p {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #707070;
+}
+main .section_5 .row .immagine_2 img {
+  width: 100%;
+}

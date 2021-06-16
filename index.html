@@ -135,7 +135,7 @@
                         </div>
                         <div class="green_banner col-12 p-0 d-flex">
                             <div class="col-3 offset-2 p-0 align-self-center">
-                                <h3>WE HELP TO DELIVER THE BUSINESS CASE</h3>
+                                <h4>WE HELP TO DELIVER THE BUSINESS CASE</h4>
                             </div>
                             <div class="col-4 offset-1 p-0 align-self-center">
                                 <p>
@@ -153,7 +153,40 @@
             <!-- /section 2 ABOUT US-->
             <!-- section 3 PROJECT-->
             <section class="section_3">
-                
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10 offset-1 p-0">
+                            <div class="overtitle">
+                                <h6>PROJECT</h6>
+                            </div>
+                            <!-- titolo e bottoni -->
+                            <div class="col-12 d-flex p-0">
+                                <div class="col-5 p-0">
+                                    <h3>OUR EXPERT TRUSTED CONSULTANTS HELPS CLIENTS</h3>
+                                </div>
+                                <div class="frecce_album col-1 offset-6 p-0 d-flex justify-content-end">
+                                    <button>
+                                        <i class="fas fa-arrow-left"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- /titolo e bottoni -->
+                            <!-- immagini vue -->
+                            <div class="col-12 p-0 d-flex">
+                                <div class="col-4 p-0" v-for="photo in album_photos"> 
+                                    <img class="img-fluid" :src="photo.url" alt="">
+                                </div>
+                            </div>
+                            <!-- immagini vue -->
+
+
+
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- section 3 PROJECT-->
         </main>

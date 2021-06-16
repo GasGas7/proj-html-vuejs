@@ -130,6 +130,7 @@ main .section_1 .row div p {
 
 main .section_2 .row {
   position: relative;
+  margin-bottom: 250px;
 }
 main .section_2 .row div:first-child {
   z-index: 1;
@@ -173,8 +174,10 @@ main .section_2 .row .green_banner {
   top: 90%;
   z-index: 3;
 }
-main .section_2 .row .green_banner h3 {
-  margin: 3rem 0;
+main .section_2 .row .green_banner h4 {
+  margin: 5rem 0;
+  font-weight: 600;
+  width: 80%;
 }
 main .section_2 .row .green_banner :last-child button {
   all: unset;
@@ -188,4 +191,27 @@ main .section_2 .row .green_banner :last-child button {
 }
 main .section_2 .row .green_banner p {
   width: 80%;
+}
+
+main .section_3 .row .overtitle::before {
+  content: "";
+  background: #39FFBF;
+  height: 2px;
+  width: 45px;
+  margin-top: 0.4rem;
+  position: absolute;
+}
+main .section_3 .row h6 {
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  color: white;
+  position: relative;
+  color: white;
+}
+main .section_3 .row h3 {
+  color: white;
+  margin-top: 1rem;
+}
+main .section_3 .row .frecce_album {
+  margin-top: 1rem;
 }

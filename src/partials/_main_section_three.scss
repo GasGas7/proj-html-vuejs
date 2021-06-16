@@ -1,0 +1,23 @@
+main {
+  .section_3 {
+    .row {
+      .overtitle::before {
+        @include greenLine;
+      }
+      h6 {
+        @include overtitle;
+        color: white;
+      }
+      h3 {
+        color: white;
+        margin-top: 1rem;
+      }
+      .frecce_album {
+        margin-top: 1rem;
+      }
+      img{
+        
+      }
+    }
+  }
+}

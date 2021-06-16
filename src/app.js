@@ -22,7 +22,20 @@ const app = new Vue({
             {
                 linkMenu: "Contact"
             },
+        ],
+        album_photos: [
+            {
+                url:"./dist/images/Sponsorship_proposal.jpg"
+            },
+            {
+                url:"./dist/images/Dry.jpg"
+            },
+            {
+                url:"./dist/images/Vizeon.jpg"
+            }
+
         ]
+
     },
 
     methods: {

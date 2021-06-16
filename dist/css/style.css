@@ -356,13 +356,14 @@ footer .section_1 {
   margin-top: 11rem;
   background-image: url("/dist/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
   height: 482px;
+  margin-bottom: 6rem;
 }
 footer .section_1 .carta_footer_jumbo {
   height: 482px;
 }
 footer .section_1 h3 {
   font-size: 45px;
-  color: #F3F1F3;
+  color: #f3f1f3;
 }
 footer .section_1 button {
   all: unset;
@@ -371,13 +372,31 @@ footer .section_1 button {
   font-size: 0.6rem;
   word-spacing: 2px;
   letter-spacing: 2px;
-  background-color: #201E38;
-  color: #F3F1F3;
+  background-color: #201e38;
+  color: #f3f1f3;
 }
 footer .section_1 p {
   font-size: 0.85rem;
   font-weight: 300;
   color: #707070;
   font-size: 1rem;
-  color: #F3F1F3;
+  color: #f3f1f3;
+}
+footer .section_2 .row .footer_banner_dad .footer_banner_son {
+  margin-bottom: 5rem;
+}
+footer .section_2 .row .footer_banner_dad .footer_banner_son .menu_footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}
+footer .section_2 .row .footer_banner_dad .footer_banner_son .socials i {
+  margin-left: 20px;
+  font-size: 25px;
+  color: #f3f1f3;
+}
+footer .section_2 .row .footer_banner_dad hr {
+  background-color: #f3f1f3;
 }

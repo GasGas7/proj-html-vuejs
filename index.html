@@ -304,10 +304,11 @@
         </main>
 
         <footer>
-            <div class="section_1">
+            <section class="section_1">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="carta_footer_jumbo col-4 offset-4 text-center d-flex flex-column justify-content-center">
+                        <div
+                            class="carta_footer_jumbo col-4 offset-4 text-center d-flex flex-column justify-content-center">
                             <div>
                                 <h3>LET'S TALK ABOUT WORK</h3>
                             </div>
@@ -322,8 +323,35 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="section_2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="footer_banner_dad col-11">
+                            <div class="footer_banner_son col-12 d-flex justify-content-between">
+                                <div class="logo_footer">
+                                    <img class="img-fluid" src="/dist/images/logotype-2-150x25.png" alt="">
+                                </div>
+                                <div class=" col-3 offset-2 d-flex justify-content-between">
+                                    <div class="menu_footer" v-for="link in headMenuLinks">
+                                        <a href="">{{link.linkMenu}}</a>
+                                    </div>
+                                </div>
+                                <div class="col-2 p-0">
+                                    <div class="socials d-flex p-0 justify-content-end">
+                                        <div><i class="fab fa-instagram"></i></div>
+                                        <div><i class="fab fa-linkedin-in"></i></div>
+                                        <div><i class="fab fa-facebook-f"></i></div>
+                                        <div><i class="fab fa-twitter"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
 
+                    </div>
+                </div>
+            </section>
         </footer>
         <!-- /Site_Main -->
     </div>

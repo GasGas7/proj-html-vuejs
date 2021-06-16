@@ -351,3 +351,33 @@ main .section_5 .row .immagine_2 .inner_img_2 p {
 main .section_5 .row .immagine_2 img {
   width: 100%;
 }
+
+footer .section_1 {
+  margin-top: 11rem;
+  background-image: url("/dist/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
+  height: 482px;
+}
+footer .section_1 .carta_footer_jumbo {
+  height: 482px;
+}
+footer .section_1 h3 {
+  font-size: 45px;
+  color: #F3F1F3;
+}
+footer .section_1 button {
+  all: unset;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 0.6rem;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  background-color: #201E38;
+  color: #F3F1F3;
+}
+footer .section_1 p {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #707070;
+  font-size: 1rem;
+  color: #F3F1F3;
+}

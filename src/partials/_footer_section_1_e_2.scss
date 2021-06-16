@@ -1,0 +1,24 @@
+footer{
+    .section_1{
+        margin-top: $marginContainerFluid;
+        background-image:url("/dist/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
+        height: 482px;
+        .carta_footer_jumbo{
+            height: 482px;
+        }
+        h3{
+            font-size: 45px;
+            color: #F3F1F3;
+        }
+        button {
+            @include button;
+            background-color: #201E38;
+            color: #F3F1F3;
+        }
+        p{
+            @include paragSection;
+            font-size: 1rem;
+            color: #F3F1F3;
+        }
+    }
+}

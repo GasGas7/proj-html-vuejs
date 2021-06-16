@@ -193,6 +193,9 @@ main .section_2 .row .green_banner p {
   width: 80%;
 }
 
+main .section_3 {
+  margin-bottom: 4rem;
+}
 main .section_3 .row .overtitle::before {
   content: "";
   background: #39FFBF;
@@ -214,4 +217,25 @@ main .section_3 .row h3 {
 }
 main .section_3 .row .frecce_album {
   margin-top: 1rem;
+}
+main .section_3 .row .frecce_album button {
+  height: 40px;
+  width: 40px;
+  background-color: #36354c;
+  color: white;
+}
+main .section_3 .row .frecce_album button:first-child {
+  margin: 0 10px;
+}
+main .section_3 .row .immagini {
+  margin-top: 2rem;
+}
+main .section_3 .row .immagini .immagine img {
+  width: 100%;
+}
+main .section_3 .row .immagini .immagine:nth-child(1) {
+  margin-right: 40px;
+}
+main .section_3 .row .immagini .immagine:nth-child(3) {
+  margin-left: 40px;
 }

@@ -175,15 +175,12 @@
                             </div>
                             <!-- /titolo e bottoni -->
                             <!-- immagini vue -->
-                            <div class="col-12 p-0 d-flex">
-                                <div class="col-4 p-0" v-for="photo in album_photos"> 
+                            <div class="immagini col-12 p-0 d-flex justify-content-between">
+                                <div class="immagine p-0 d-flex" v-for="photo in album_photos">
                                     <img class="img-fluid" :src="photo.url" alt="">
                                 </div>
                             </div>
                             <!-- immagini vue -->
-
-
-
                         </div>
                     </div>
                 </div>

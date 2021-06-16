@@ -4,6 +4,9 @@ main{
     .section_1{
         background-color: white;
         position: relative;
+        h4{
+                padding:4rem 0;
+            }
         h4::after {
             content: "";
             background: $bgButtonAcqua;
@@ -14,7 +17,8 @@ main{
             right: 0;
             }
         .row{
-            padding-bottom: 4rem;
+            padding-bottom: 5rem;
+            
             .carta{
                 margin-bottom: 1.5rem;
             }

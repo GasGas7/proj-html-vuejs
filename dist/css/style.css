@@ -227,9 +227,6 @@ main .section_3 .row .frecce_album button {
 main .section_3 .row .frecce_album button:first-child {
   margin: 0 10px;
 }
-main .section_3 .row .immagini {
-  margin-top: 2rem;
-}
 main .section_3 .row .immagini .immagine img {
   width: 100%;
 }

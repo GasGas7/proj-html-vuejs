@@ -240,6 +240,9 @@ main .section_3 .row .immagini .immagine:nth-child(3) {
   margin-left: 40px;
 }
 
+main .section_4 {
+  margin-bottom: 4rem;
+}
 main .section_4 .row {
   position: relative;
 }
@@ -265,4 +268,14 @@ main .section_4 .row h3 {
   color: white;
   margin-top: 1rem;
   text-align: right;
+}
+main .section_4 .row .white_banner {
+  width: calc((100%) - 11rem);
+  margin-left: 11rem;
+  background-color: white;
+}
+main .section_4 .row .white_banner p {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #707070;
 }

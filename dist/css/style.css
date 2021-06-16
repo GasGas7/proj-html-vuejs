@@ -261,3 +261,8 @@ main .section_4 .row h6 {
   display: inline-block;
   color: white;
 }
+main .section_4 .row h3 {
+  color: white;
+  margin-top: 1rem;
+  text-align: right;
+}

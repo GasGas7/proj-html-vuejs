@@ -61,54 +61,20 @@
                     <h4>OUR CONSULTANT CAN HELP YOU</h4>
                     <div class="row">
                         <!-- carte -->
-                        <div class="carta col-5 d-flex justify-content-center align-items-start">
-                            <div class="icona p-0">
-                                <img src="./dist/images/line-chart.png" alt="">
-                            </div>
-                            <div class="col-10 pl-2">
-                                <h6>STATISTICAL CONSULTING</h6>
-                                <p>
-                                    When, while lovely valley teems with vapour around meand eridian sun strikes the
-                                    upper impenetrable foliage of my trees, and but a
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carta col-5 offset-2 d-flex justify-content-center align-items-start">
-                            <div class="icona p-0">
-                                <img src="./dist/images/promotion.png" alt="">
-                            </div>
-                            <div class="col-10 pl-2">
-                                <h6>DIGITAL CONSULTING</h6>
-                                <p>
-                                    When, while lovely valley teems with vapour around meand eridian sun strikes the
-                                    upper impenetrable foliage of my trees, and but a
-                                </p>
+                        <div class="carte col-6" v-for="card in cardSectionOne">
+                            <div class="carta col-12 d-flex justify-content-center">
+                                <div class="icona p-0">
+                                    <img :src="card.icon" alt="">
+                                </div>
+                                <div class="col-10 pl-2">
+                                    <h6>{{card.titolo}}</h6>
+                                    <p>
+                                        {{card.descr}}
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carta col-5 d-flex justify-content-center align-items-start">
-                            <div class="icona p-0">
-                                <img src="./dist/images/purse.png" alt="">
-                            </div>
-                            <div class="col-10 pl-2">
-                                <h6>BANKING CONSULTING</h6>
-                                <p>
-                                    When, while lovely valley teems with vapour around meand eridian sun strikes the
-                                    upper impenetrable foliage of my trees, and but a
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carta col-5 offset-2 d-flex justify-content-center align-items-start">
-                            <div class="icona p-0">
-                                <img src="./dist/images/target.png" alt="">
-                            </div>
-                            <div class="col-10 pl-2">
-                                <h6>ENTERPRISE CONSULTING</h6>
-                                <p>
-                                    When, while lovely valley teems with vapour around meand eridian sun strikes the
-                                    upper impenetrable foliage of my trees, and but a
-                                </p>
-                            </div>
-                        </div>
+
                         <!-- /carte -->
                     </div>
                 </div>
@@ -171,19 +137,19 @@
                                         <i class="fas fa-arrow-left"></i>
                                     </button>
                                     <button>
-                                        <i class="fas fa-arrow-right"></i>
+                                        <i class="fas fa-arrow-right" @click="counterImage = +1"></i>
                                     </button>
                                 </div>
                             </div>
                             <!-- /titolo e bottoni -->
                             <!-- immagini vue -->
                             <div class="immagini col-12 p-0 d-flex justify-content-between mt-4">
-                                <div class="immagine p-0 d-flex" v-for="photo in album_photos">
+                                <div class="immagine p-0 d-flex" v-for="(photo, index) in album_photos">
                                     <div class="immagine_inner">
                                         <img class="img-fluid" :src="photo.url" alt="">
                                         <div class="onlyHover">
                                             <div class="onlyHoverTitle">
-                                                <h3>Purinky Products</h3> 
+                                                <h3>Purinky Products</h3>
                                                 <span>uncategorized</span>
                                             </div>
 
@@ -215,32 +181,14 @@
                         </div>
                         <div class="white_banner mt-4">
                             <div class="col-12 d-flex align-items-center justify-content-between p-0">
-                                <div class="testimonial col-3 ">
-                                    <p>
-                                        When, while lovely valley teems with vapour around meand eridian sun strikes
-                                        theupper impenetrable foliage of my trees, and but a thousand unknown plants are
-                                        noticed when I hear the buzz of the little
-                                    </p>
-                                    <h5>Vera Duncan</h5>
-                                    <span>Amazon.Inc</span>
-                                </div>
-                                <div class="testimonial col-3">
-                                    <p>
-                                        When, while lovely valley teems with vapour around meand eridian sun strikes
-                                        theupper impenetrable foliage of my trees, and but a thousand unknown plants are
-                                        noticed when I hear the buzz of the little
-                                    </p>
-                                    <h5>Vera Duncan</h5>
-                                    <span class="">Amazon.Inc</span>
-                                </div>
-                                <div class="testimonial col-3">
-                                    <p>
-                                        When, while lovely valley teems with vapour around meand eridian sun strikes
-                                        theupper impenetrable foliage of my trees, and but a thousand unknown plants are
-                                        noticed when I hear the buzz of the little
-                                    </p>
-                                    <h5>Vera Duncan</h5>
-                                    <span>Amazon.Inc</span>
+                                <div class="testimonials col-3" v-for="testimonial in testimonials">
+                                    <div class="testimonial col-12 ">
+                                        <p>
+                                            {{testimonial.descr}}
+                                        </p>
+                                        <h5>{{testimonial.nome}}</h5>
+                                        <span>{{testimonial.reference}}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -258,7 +206,7 @@
                                 <h6>BLOG</h6>
                             </div>
                             <!-- titolo e bottoni -->
-                            <div class="col-12 d-flex p-0">
+                            <div class="col-12 p-0 d-flex">
                                 <div class="col-12 p-0 d-flex justify-content-between">
                                     <h3>THE RECENT NEWS YOU MUST READ IT</h3>
                                     <div>
@@ -266,28 +214,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 d-flex p-0 mt-4">
-                                <div class="immagine_1 col-6 pl-0">
-                                    <img class="img-fluid"
-                                        src="./dist/images/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg"
-                                        alt="">
-                                    <div class="inner_img_1 col-9">
-                                        <div class="mb-2">
-                                            <span class="mr-4">July 4, 2019</span><span>by paul</span>
-                                        </div>
-                                        <div class="mb-2">
-                                            <h5>Canadian Fonsulting Firm acquired by UK Giant</h5>
-                                        </div>
-                                        <div>
-                                            <p>
-                                                When, while lovely valley teems with vapour around meand eridian sun
-                                                strikes
-                                                theupper impenetrable foliage of my trees, and but a
-                                            </p>
+                            <div class="newsBlog_outer col-12 d-flex justify-content-around p-0">
+                                <div class="newsBlog_inner col-6 p-0 mt-4" v-for="news in blogNews">
+                                    <div class="col-12 p-0">
+                                        <img class="img-fluid" :src="news.img" alt="">
+                                        <div class="inner_img_1 col-9">
+                                            <div class="mb-2">
+                                                <span class="mr-4">{{news.data}}</span><span>{{news.writer}}</span>
+                                            </div>
+                                            <div class="mb-2">
+                                                <h5>{{news.title}}</h5>
+                                            </div>
+                                            <div>
+                                                <p>
+                                                    {{news.comment}}
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="immagine_2 col-6 pr-0">
+
+                                <!-- <div class="immagine_2 col-6 pr-0">
                                     <img class="img-fluid"
                                         src="./dist/images/business-people-working-together-on-project-and-5FHSKBL-1390.jpg"
                                         alt="">
@@ -306,7 +253,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

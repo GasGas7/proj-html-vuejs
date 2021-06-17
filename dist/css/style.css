@@ -18,7 +18,7 @@ h1 {
 }
 
 header {
-  background-image: url("/dist/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
+  background-image: url("../images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
   background-size: 69%;
   background-position-x: right;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ main .section_4 .row .white_banner .testimonial {
   padding: 60px 20px;
 }
 main .section_4 .row .white_banner .testimonial:hover {
-  background-image: url("/dist/images/oliver-ragfelt-488196-2.jpg");
+  background-image: url("../images/oliver-ragfelt-488196-2.jpg");
   background-size: 100%;
 }
 main .section_4 .row .white_banner .testimonial:hover p {
@@ -371,11 +371,14 @@ main .section_5 .row button:hover {
   background-color: red;
   color: white;
 }
-main .section_5 .row .immagine_1 {
+main .section_5 .row .newsBlog_inner img {
+  padding: 10px;
+}
+main .section_5 .row .newsBlog_inner div:first-child {
   position: relative;
   z-index: 1;
 }
-main .section_5 .row .immagine_1 .inner_img_1 {
+main .section_5 .row .newsBlog_inner div:first-child .inner_img_1 {
   background-color: white;
   padding: 1rem 7rem 2rem 4rem;
   z-index: 3;
@@ -383,43 +386,22 @@ main .section_5 .row .immagine_1 .inner_img_1 {
   top: 65%;
   right: 15px;
 }
-main .section_5 .row .immagine_1 .inner_img_1 span {
+main .section_5 .row .newsBlog_inner div:first-child .inner_img_1 span {
   font-size: 0.8rem;
   color: red;
 }
-main .section_5 .row .immagine_1 .inner_img_1 p {
+main .section_5 .row .newsBlog_inner div:first-child .inner_img_1 p {
   font-size: 0.85rem;
   font-weight: 300;
   color: #707070;
 }
-main .section_5 .row .immagine_2 {
-  position: relative;
-  z-index: 1;
-}
-main .section_5 .row .immagine_2 .inner_img_2 {
-  background-color: white;
-  padding: 1rem 7rem 2rem 4rem;
-  z-index: 3;
-  position: absolute;
-  top: 65%;
-  right: 0;
-}
-main .section_5 .row .immagine_2 .inner_img_2 span {
-  font-size: 0.8rem;
-  color: red;
-}
-main .section_5 .row .immagine_2 .inner_img_2 p {
-  font-size: 0.85rem;
-  font-weight: 300;
-  color: #707070;
-}
-main .section_5 .row .immagine_2 img {
+main .section_5 .row .newsBlog_inner div:first-child img {
   width: 100%;
 }
 
 footer .section_1 {
   margin-top: 11rem;
-  background-image: url("/dist/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
+  background-image: url("../images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
   height: 482px;
   margin-bottom: 6rem;
 }

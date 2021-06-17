@@ -21,7 +21,10 @@ main {
           color: white;
         }
       }
-      .immagine_1 {
+      .newsBlog_inner img{
+        padding: 10px;
+      }
+      .newsBlog_inner div:first-child {
         position: relative;
         z-index: 1;
         & .inner_img_1 {
@@ -34,24 +37,9 @@ main {
             @include paragSection;
           }
         }
-      }
-      .immagine_2 {
-        position: relative;
-        z-index: 1;
-        & .inner_img_2 {
-          @include whiteBannerSectionFive;
-          right: 0;
-          & span {
-            @include spanWhiteBanner;
-          }
-          & p {
-            @include paragSection;
-          }
-        }
-        
         img {
           width: 100%;
-        }
+         }
       }
     }
   }

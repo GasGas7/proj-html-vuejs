@@ -327,14 +327,14 @@
             <section class="section_2">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="footer_banner_dad col-11">
-                            <div class="footer_banner_son col-12 d-flex justify-content-between">
+                        <div class="footer_banner_dad col-10 offset-1">
+                            <div class="footer_banner_son col-12  d-flex justify-content-between">
                                 <div class="logo_footer">
                                     <img class="img-fluid" src="/dist/images/logotype-2-150x25.png" alt="">
                                 </div>
-                                <div class=" col-3 offset-2 d-flex justify-content-between">
-                                    <div class="menu_footer" v-for="link in headMenuLinks">
-                                        <a href="">{{link.linkMenu}}</a>
+                                <div class=" col-5 offset-1 d-flex justify-content-around">
+                                    <div class="menu_footer " v-for="link in headMenuLinks">
+                                        <a href="#">{{link.linkMenu}}</a>
                                     </div>
                                 </div>
                                 <div class="col-2 p-0">
@@ -347,10 +347,31 @@
                                 </div>
                             </div>
                             <hr>
-                        </div>
+                            <div class="terms_of d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="div_span">
+                                        <span>
+                                            <a href="#">Term of use</a>
+                                        </span>
+                                    </div>
 
+                                    <div class="div_span">
+                                        <span>
+                                            <a href="#">Privacy environmental policy</a>
+                                        </span>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <span>
+                                        Coyright <i class="far fa-copyright"></i> 2020 Phlox Consulting. All rights
+                                        reserved.
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
             </section>
         </footer>
         <!-- /Site_Main -->

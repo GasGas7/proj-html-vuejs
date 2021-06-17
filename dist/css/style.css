@@ -390,7 +390,7 @@ footer .section_2 .row .footer_banner_dad .footer_banner_son .menu_footer a {
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 500;
-  color: white;
+  color: #757484;
 }
 footer .section_2 .row .footer_banner_dad .footer_banner_son .socials i {
   margin-left: 20px;
@@ -399,4 +399,18 @@ footer .section_2 .row .footer_banner_dad .footer_banner_son .socials i {
 }
 footer .section_2 .row .footer_banner_dad hr {
   background-color: #f3f1f3;
+}
+footer .section_2 .row .footer_banner_dad .terms_of {
+  color: #757484;
+  height: 100px;
+}
+footer .section_2 .row .footer_banner_dad .terms_of .div_span {
+  margin-bottom: 5px;
+}
+footer .section_2 .row .footer_banner_dad .terms_of span {
+  font-size: 0.9rem;
+}
+footer .section_2 .row .footer_banner_dad .terms_of span a {
+  text-decoration: none;
+  color: #757484;
 }

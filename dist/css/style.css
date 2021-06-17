@@ -75,6 +75,10 @@ header .bottoni button {
   background-color: #39FFBF;
   border-color: #39FFBF;
 }
+header .bottoni button:hover {
+  background-color: red;
+  color: white;
+}
 header .bottoni span {
   text-align: center;
   padding: 2px 12px 2px 14px;
@@ -189,6 +193,10 @@ main .section_2 .row .green_banner :last-child button {
   background-color: #f81d39;
   color: white;
 }
+main .section_2 .row .green_banner :last-child button:hover {
+  background-color: #ffe627;
+  color: black;
+}
 main .section_2 .row .green_banner p {
   width: 80%;
 }
@@ -225,6 +233,10 @@ main .section_3 .row .frecce_album button {
   background-color: #36354c;
   color: white;
 }
+main .section_3 .row .frecce_album button:hover {
+  background-color: red;
+  color: white;
+}
 main .section_3 .row .frecce_album button:first-child {
   margin: 0 10px;
 }
@@ -236,6 +248,38 @@ main .section_3 .row .immagini .immagine:nth-child(1) {
 }
 main .section_3 .row .immagini .immagine:nth-child(3) {
   margin-left: 40px;
+}
+main .section_3 .row .immagini .immagine .immagine_inner {
+  position: relative;
+  z-index: 1;
+}
+main .section_3 .row .immagini .immagine .immagine_inner:hover .onlyHover {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+main .section_3 .row .immagini .immagine .immagine_inner .onlyHover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  z-index: 3;
+  color: white;
+  background-color: rgba(255, 34, 34, 0.8);
+}
+main .section_3 .row .immagini .immagine .immagine_inner .onlyHover .onlyHoverTitle, main .section_3 .row .immagini .immagine .immagine_inner .onlyHover .onlyHoverIcon {
+  margin-bottom: 20px;
+}
+main .section_3 .row .immagini .immagine .immagine_inner .onlyHover .onlyHoverTitle span {
+  color: #36354c;
+}
+main .section_3 .row .immagini .immagine .immagine_inner .onlyHover:last-child span i {
+  padding: 25px;
+  background-color: #36354c;
+  font-size: 25px;
+  color: white;
 }
 
 main .section_4 {
@@ -272,6 +316,22 @@ main .section_4 .row .white_banner {
   margin-left: 11rem;
   background-color: white;
 }
+main .section_4 .row .white_banner .testimonial {
+  padding: 60px 20px;
+}
+main .section_4 .row .white_banner .testimonial:hover {
+  background-image: url("/dist/images/oliver-ragfelt-488196-2.jpg");
+  background-size: 100%;
+}
+main .section_4 .row .white_banner .testimonial:hover p {
+  color: lightgrey;
+}
+main .section_4 .row .white_banner .testimonial:hover h5 {
+  color: white;
+}
+main .section_4 .row .white_banner .testimonial:hover span:last-child {
+  color: lightgrey;
+}
 main .section_4 .row .white_banner p {
   font-size: 0.85rem;
   font-weight: 300;
@@ -306,6 +366,10 @@ main .section_5 .row button {
   word-spacing: 2px;
   letter-spacing: 2px;
   background-color: #39FFBF;
+}
+main .section_5 .row button:hover {
+  background-color: red;
+  color: white;
 }
 main .section_5 .row .immagine_1 {
   position: relative;

@@ -1,6 +1,6 @@
 main {
   .section_4 {
-      margin-bottom: 4rem;
+    margin-bottom: 4rem;
     .row {
       position: relative;
       .overtitle::after {
@@ -22,8 +22,27 @@ main {
         width: $widthCalc;
         margin-left: 11rem;
         background-color: white;
+
+        .testimonial {
+          padding: 60px 20px;
+
+          &:hover {
+            background-image: url("/dist/images/oliver-ragfelt-488196-2.jpg");
+            background-size: 100%;
+
+            p {
+              color: lightgrey;
+            }
+            h5 {
+              color: white;
+            }
+            span:last-child {
+              color: lightgrey;
+            }
+          }
+        }
         & p {
-            @include paragSection;
+          @include paragSection;
         }
       }
     }

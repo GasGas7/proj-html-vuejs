@@ -16,6 +16,10 @@ main {
       button {
         @include button;
         background-color: $bgButtonAcqua;
+        &:hover{
+          background-color: red;
+          color: white;
+        }
       }
       .immagine_1 {
         position: relative;

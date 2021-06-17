@@ -45,6 +45,10 @@ main {
           @include button;
           background-color: #f81d39;
           color: white;
+          &:hover{
+            background-color:rgb(255, 230, 39);
+            color: black;
+          }
         }
         & p {
           width: 80%;

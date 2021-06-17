@@ -45,6 +45,11 @@ header {
       @include button;
       background-color: $bgButtonAcqua;
       border-color: $bgButtonAcqua;
+
+      &:hover{
+        background-color: red;
+        color: white;
+      }
     }
     span {
       text-align: center;

@@ -1,6 +1,6 @@
 main {
   .section_3 {
-      margin-bottom: 4rem;
+    margin-bottom: 4rem;
     .row {
       .overtitle::before {
         @include greenLine;
@@ -21,6 +21,10 @@ main {
           width: 40px;
           background-color: #36354c;
           color: white;
+          &:hover {
+            background-color: red;
+            color: white;
+          }
           &:first-child {
             margin: 0 10px;
           }
@@ -36,6 +40,41 @@ main {
         }
         .immagine:nth-child(3) {
           margin-left: 40px;
+        }
+
+        .immagine {
+          .immagine_inner {
+            position: relative;
+            z-index: 1;
+            &:hover .onlyHover{
+                width: 100%;
+                display:flex;
+                justify-content: space-around;
+                align-items: flex-end;
+              }
+            .onlyHover {
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              top:0;
+              display: none;
+              z-index: 3;
+              color: white;
+              background-color: rgba($color: #ff2222, $alpha: 0.8);
+              .onlyHoverTitle, .onlyHoverIcon{
+                margin-bottom: 20px;
+              }
+              .onlyHoverTitle span{
+                color:#36354c;
+              }
+              &:last-child span i{
+                padding: 25px;
+                background-color: #36354c;
+                font-size: 25px;
+                color: white;
+              }
+            }
+          }
         }
       }
     }

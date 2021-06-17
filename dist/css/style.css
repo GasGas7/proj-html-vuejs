@@ -219,6 +219,7 @@ main .section_3 .row .frecce_album {
   margin-top: 1rem;
 }
 main .section_3 .row .frecce_album button {
+  font-size: 0.7rem;
   height: 40px;
   width: 40px;
   background-color: #36354c;

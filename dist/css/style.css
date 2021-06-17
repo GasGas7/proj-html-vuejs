@@ -414,3 +414,26 @@ footer .section_2 .row .footer_banner_dad .terms_of span a {
   text-decoration: none;
   color: #757484;
 }
+footer .section_2 .row .chat_service {
+  position: relative;
+}
+footer .section_2 .row .chat_service .arrow {
+  font-size: 0.8rem;
+  background-color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 35px;
+  z-index: 4;
+}
+footer .section_2 .row .chat_service .chat {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 15px;
+  background-color: #527ceb;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 4;
+}

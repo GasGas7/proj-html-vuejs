@@ -50,7 +50,7 @@ footer {
           color: #757484;
           height: 100px;
 
-          .div_span{
+          .div_span {
             margin-bottom: 5px;
           }
           span {
@@ -60,6 +60,31 @@ footer {
               color: #757484;
             }
           }
+        }
+      }
+
+      .chat_service {
+        position: relative;
+        .arrow {
+          font-size: 0.8rem;
+          background-color: #ffffff;
+          padding: 3px 8px;
+          border-radius: 50%;
+          position: fixed;
+          bottom: 35px;
+          z-index: 4;
+        }
+
+        .chat {
+          color: #ffffff;
+          font-size: 25px;
+          padding: 10px 15px;
+          background-color: #527ceb;
+          border-radius: 50%;
+          position: fixed;
+          bottom: 25px;
+          right: 25px;
+          z-index: 4;
         }
       }
     }

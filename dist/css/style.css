@@ -34,9 +34,12 @@ header nav img {
 header nav .menu_header a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: white;
+}
+header nav .menu_header a:hover {
+  font-size: 1rem;
 }
 header .titolo {
   margin-left: 11rem;
@@ -384,7 +387,7 @@ main .section_5 .row .newsBlog_inner div:first-child .inner_img_1 {
   z-index: 3;
   position: absolute;
   top: 65%;
-  right: 15px;
+  right: 10px;
 }
 main .section_5 .row .newsBlog_inner div:first-child .inner_img_1 span {
   font-size: 0.8rem;

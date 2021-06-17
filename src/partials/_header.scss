@@ -17,9 +17,13 @@ header {
     & .menu_header a {
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 1rem;
+      font-size: 0.8rem;
       font-weight: 500;
       color: white;
+
+      &:hover{
+        font-size: 1rem;
+      }
     }
   }
   .titolo{

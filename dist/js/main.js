@@ -75,7 +75,12 @@ var app = new Vue({
       comment: " When, while lovely valley teems with vapour around meand eridian sun strikes theupper impenetrable foliage of my trees, and but a"
     }]
   },
-  methods: {},
+  methods: {
+    scrollToTop: function scrollToTop() {
+      var about = document.getElementById("goUp");
+      about.scrollIntoView();
+    }
+  },
   mounted: function mounted() {}
 });
 

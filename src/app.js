@@ -100,7 +100,10 @@ const app = new Vue({
     },
 
     methods:{
-        
+        scrollToTop(){
+            let about = document.getElementById("goUp");
+            about.scrollIntoView();
+        }
     },
 
     mounted() {
